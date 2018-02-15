@@ -1,6 +1,9 @@
 
 @import "ember-bootstrap/bootstrap";
 
+body {
+  background-color: #f8f9fa;
+}
 .banner {
   width: 100%;
   display: flex;
@@ -11,5 +14,23 @@
   div {
     margin: 0;
     padding: 0;
+  }
+}
+
+.nav-area {
+  margin: 1em;
+  padding: 0;
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    padding-left: 0.5em;
+  }
+  .navbar-header{
+    display: flex;
+    .navbar-toggler {
+      align-self: center;
+    }
   }
 }
