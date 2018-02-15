@@ -1,2 +1,15 @@
 
 @import "ember-bootstrap/bootstrap";
+
+.banner {
+  width: 100%;
+  display: flex;
+  .logo,
+  .banner {
+    height: 15em;
+  }
+  div {
+    margin: 0;
+    padding: 0;
+  }
+}
