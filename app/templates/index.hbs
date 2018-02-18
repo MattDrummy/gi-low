@@ -1,1 +1,6 @@
 {{outlet}}
+
+{{#each model.comics as |comic|}}
+  <p>{{comic.id}}</p>
+  <p>{{comic.url}}</p>
+{{/each}}
